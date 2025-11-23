@@ -1,6 +1,6 @@
 /*
 * csblob.c
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #include "../include/csblob.h"
 #include <stdio.h>
@@ -148,4 +148,5 @@ void print_code_signature_info(const CS_SuperBlob* superblob) {
     // Implementation for detailed code signature info
 
 }
+
 
