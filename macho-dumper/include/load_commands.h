@@ -1,6 +1,6 @@
 /*
 * load_commands.h
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #ifndef LOAD_COMMANDS_H
 #define LOAD_COMMANDS_H
@@ -49,3 +49,4 @@ void free_segments(segment_info_t* segments, uint32_t nsegments);
 
 
 #endif // LOAD_COMMANDS_H
+
