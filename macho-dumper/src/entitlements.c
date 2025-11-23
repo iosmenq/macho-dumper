@@ -1,6 +1,6 @@
 /*
 * entitlements.c
-* Coded by iosmen (c) 2025
+* Codded by iosmen (c) 2025
 */
 #include "../include/entitlements.h"
 #include <stdio.h>
@@ -114,3 +114,4 @@ void free_entitlements(entitlements_t* entitlements) {
     free(entitlements);
 
 }
+
