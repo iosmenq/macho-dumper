@@ -1,3 +1,7 @@
+/*
+* utils.c
+* Codded by iosmen (c) 2025
+*/
 #include "../include/utils.h"
 #include <stdlib.h>
 #include <string.h>
@@ -169,4 +173,5 @@ void* safe_memcpy(void* dest, const void* src, size_t n, const void* base, size_
 size_t calculate_padding(size_t offset, size_t alignment) {
     if (alignment == 0) return 0;
     return (alignment - (offset % alignment)) % alignment;
+
 }
