@@ -1,3 +1,7 @@
+/*
+* swift.c
+* Codded by iosmen (c) 2025
+*/
 #include "../include/swift.h"
 #include <stdio.h>
 #include <string.h>
@@ -91,4 +95,5 @@ void print_swift_metadata(const swift_metadata_t* metadata) {
     printf("  Type Descriptor Offset: 0x%x\n", metadata->type_descriptor_offset);
     printf("  Protocol Conformance Offset: 0x%x\n", metadata->protocol_conformance_offset);
     printf("  Method Descriptor Offset: 0x%x\n", metadata->method_descriptor_offset);
+
 }
