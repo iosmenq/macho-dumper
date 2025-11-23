@@ -1,3 +1,7 @@
+/*
+* csblob.c
+* Coded by iosmen (c) 2025
+*/
 #include "../include/csblob.h"
 #include <stdio.h>
 #include <string.h>
@@ -142,4 +146,5 @@ macho_error_t parse_code_signature(const macho_ctx_t* ctx) {
 void print_code_signature_info(const CS_SuperBlob* superblob) {
     if (!superblob) return;
     // Implementation for detailed code signature info
+
 }
