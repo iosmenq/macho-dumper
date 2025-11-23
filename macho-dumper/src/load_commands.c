@@ -1,6 +1,6 @@
 /*
 * load_commands.c
-* Coded by iosmen (c) 2025
+* Codded by iosmen (c) 2025
 */
 #include "../include/load_commands.h"
 #include <stdio.h>
@@ -212,3 +212,4 @@ void free_segments(segment_info_t* segments, uint32_t nsegments) {
     free(segments);
 
 }
+
