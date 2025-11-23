@@ -1,6 +1,6 @@
 /*
 * swift.h
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #ifndef CSBLOB_H
 #define CSBLOB_H
@@ -46,3 +46,4 @@ void print_code_signature_info(const CS_SuperBlob* superblob);
 
 
 #endif // CSBLOB_H
+
