@@ -1,6 +1,6 @@
 /*
 * entitlements.h
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #ifndef ENTITLEMENTS_H
 #define ENTITLEMENTS_H
@@ -26,3 +26,4 @@ void free_entitlements(entitlements_t* entitlements);
 
 
 #endif // ENTITLEMENTS_H
+
