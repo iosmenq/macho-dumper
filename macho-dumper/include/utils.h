@@ -1,3 +1,7 @@
+/*
+* utils.h
+* Codded by iosmen (c) 2025
+*/
 #ifndef UTILS_H
 #define UTILS_H
 
@@ -33,5 +37,6 @@ const char* macho_strerror(macho_error_t error);
 #else
 #define debug_print(fmt, ...)
 #endif
+
 
 #endif // UTILS_H
