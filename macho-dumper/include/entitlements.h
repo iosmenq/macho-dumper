@@ -1,3 +1,7 @@
+/*
+* entitlements.h
+* Codded by iosmen (c) 2025
+*/
 #ifndef ENTITLEMENTS_H
 #define ENTITLEMENTS_H
 
@@ -19,5 +23,6 @@ typedef struct {
 macho_error_t parse_entitlements(const macho_ctx_t* ctx, entitlements_t** entitlements);
 void print_entitlements(const entitlements_t* entitlements);
 void free_entitlements(entitlements_t* entitlements);
+
 
 #endif // ENTITLEMENTS_H
