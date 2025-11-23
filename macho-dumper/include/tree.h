@@ -1,6 +1,6 @@
 /*
 * tree.h
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #ifndef TREE_H
 #define TREE_H
@@ -26,3 +26,4 @@ macho_error_t find_dylib_dependencies(const macho_ctx_t* ctx, char*** dylibs, ui
 
 
 #endif // TREE_H
+
