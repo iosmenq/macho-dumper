@@ -1,3 +1,7 @@
+/*
+* swift.h
+* Codded by iosmen (c) 2025
+*/
 #ifndef CSBLOB_H
 #define CSBLOB_H
 
@@ -39,5 +43,6 @@ typedef struct __CodeDirectory {
 macho_error_t parse_code_signature(const macho_ctx_t* ctx);
 macho_error_t find_code_signature(const macho_ctx_t* ctx, uint32_t* offset, uint32_t* size);
 void print_code_signature_info(const CS_SuperBlob* superblob);
+
 
 #endif // CSBLOB_H
