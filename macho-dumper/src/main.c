@@ -1,3 +1,7 @@
+/*
+* main.c
+* Codded by iosmen (c) 2025
+*/
 #include "../include/macho.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -123,4 +127,5 @@ int main(int argc, char* argv[]) {
 
     free_macho_context(&ctx);
     return 0;
+
 }
