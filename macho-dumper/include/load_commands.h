@@ -1,3 +1,7 @@
+/*
+* load_commands.h
+* Codded by iosmen (c) 2025
+*/
 #ifndef LOAD_COMMANDS_H
 #define LOAD_COMMANDS_H
 
@@ -42,5 +46,6 @@ macho_error_t parse_load_commands(macho_ctx_t* ctx);
 void print_load_commands(const macho_ctx_t* ctx);
 macho_error_t parse_segment_commands(macho_ctx_t* ctx, segment_info_t** segments, uint32_t* nsegments);
 void free_segments(segment_info_t* segments, uint32_t nsegments);
+
 
 #endif // LOAD_COMMANDS_H
