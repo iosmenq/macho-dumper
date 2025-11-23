@@ -1,6 +1,6 @@
 /*
 * macho.c
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #include "../include/macho.h"
 #include <stdio.h>
@@ -118,3 +118,4 @@ void free_macho_context(macho_ctx_t* ctx) {
     }
 
 }
+
