@@ -1,3 +1,7 @@
+/*
+* tree.h
+* Codded by iosmen (c) 2025
+*/
 #ifndef TREE_H
 #define TREE_H
 
@@ -19,5 +23,6 @@ macho_error_t build_dependency_tree(const macho_ctx_t* ctx, dylib_node_t** root)
 void print_dependency_tree(const dylib_node_t* node, int depth);
 void free_dependency_tree(dylib_node_t* node);
 macho_error_t find_dylib_dependencies(const macho_ctx_t* ctx, char*** dylibs, uint32_t* count);
+
 
 #endif // TREE_H
