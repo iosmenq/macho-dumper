@@ -1,3 +1,7 @@
+/*
+* macho.h
+* Codded by iosmen (c) 2025
+*/
 #ifndef MACHO_H
 #define MACHO_H
 
@@ -32,5 +36,6 @@ macho_error_t parse_macho(macho_ctx_t* ctx, const char* filename);
 void print_header_info(const macho_ctx_t* ctx);
 void free_macho_context(macho_ctx_t* ctx);
 macho_error_t parse_fat_binary(macho_ctx_t* ctx, const char* filename);
+
 
 #endif // MACHO_H
