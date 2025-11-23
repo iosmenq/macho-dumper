@@ -1,6 +1,6 @@
 /*
 * utils.c
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #include "../include/utils.h"
 #include <stdlib.h>
@@ -175,3 +175,4 @@ size_t calculate_padding(size_t offset, size_t alignment) {
     return (alignment - (offset % alignment)) % alignment;
 
 }
+
