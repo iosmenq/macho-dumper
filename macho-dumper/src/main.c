@@ -1,6 +1,6 @@
 /*
 * main.c
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #include "../include/macho.h"
 #include <stdio.h>
@@ -129,3 +129,4 @@ int main(int argc, char* argv[]) {
     return 0;
 
 }
+
