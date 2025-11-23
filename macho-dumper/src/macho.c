@@ -1,3 +1,7 @@
+/*
+* macho.c
+* Codded by iosmen (c) 2025
+*/
 #include "../include/macho.h"
 #include <stdio.h>
 #include <string.h>
@@ -112,4 +116,5 @@ void free_macho_context(macho_ctx_t* ctx) {
         }
         free(ctx->load_commands);
     }
+
 }
