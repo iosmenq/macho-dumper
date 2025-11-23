@@ -1,3 +1,7 @@
+/*
+* disasm.c
+* Coded by iosmen (c) 2025
+*/
 #include "../include/disasm.h"
 #include <stdio.h>
 #include <string.h>
@@ -174,4 +178,5 @@ macho_error_t disassemble_macho_arm64(const macho_ctx_t* ctx) {
     
     free_disassembler(&disasm_ctx);
     return err;
+
 }
