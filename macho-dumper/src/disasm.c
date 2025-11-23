@@ -1,6 +1,6 @@
 /*
 * disasm.c
-* Coded by iosmen (c) 2025
+* Codded by iosmen (c) 2025
 */
 #include "../include/disasm.h"
 #include <stdio.h>
@@ -180,3 +180,4 @@ macho_error_t disassemble_macho_arm64(const macho_ctx_t* ctx) {
     return err;
 
 }
+
