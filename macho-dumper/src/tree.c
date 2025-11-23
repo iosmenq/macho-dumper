@@ -1,6 +1,6 @@
 /*
 * tree.c
-* Codded by iosmen (c) 2025
+* Coded by iosmen (c) 2025
 */
 #include "../include/tree.h"
 #include <stdio.h>
@@ -151,3 +151,4 @@ void free_dependency_tree(dylib_node_t* node) {
     free(node);
 
 }
+
