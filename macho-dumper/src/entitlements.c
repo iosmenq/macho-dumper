@@ -1,3 +1,7 @@
+/*
+* entitlements.c
+* Coded by iosmen (c) 2025
+*/
 #include "../include/entitlements.h"
 #include <stdio.h>
 #include <string.h>
@@ -108,4 +112,5 @@ void free_entitlements(entitlements_t* entitlements) {
     }
     
     free(entitlements);
+
 }
