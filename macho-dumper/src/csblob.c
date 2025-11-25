@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "macho.h"
 
 // Code signature magic numbers
 #define CSMAGIC_CODEDIRECTORY 0xfade0c02

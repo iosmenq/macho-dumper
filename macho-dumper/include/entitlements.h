@@ -6,12 +6,13 @@
 #define ENTITLEMENTS_H
 
 #include "utils.h"
+#include "macho.h"
 
 // Entitlements structure
-typedef struct {
+typedef struct entitlement {
     char* key;
     char* value;
-    struct entitlement_t* next;
+    struct entitlement* next;
 } entitlement_t;
 
 typedef struct {
@@ -24,6 +25,4 @@ macho_error_t parse_entitlements(const macho_ctx_t* ctx, entitlements_t** entitl
 void print_entitlements(const entitlements_t* entitlements);
 void free_entitlements(entitlements_t* entitlements);
 
-
 #endif // ENTITLEMENTS_H
-

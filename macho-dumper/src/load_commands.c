@@ -2,8 +2,10 @@
 * load_commands.c
 * Coded by iosmen (c) 2025
 */
-#include "../include/load_commands.h"
-#include <stdio.h>
+
+#include "macho.h"
+#include "load_commands.h"
+#include "utils.h"
 #include <string.h>
 #include <stdlib.h>
 

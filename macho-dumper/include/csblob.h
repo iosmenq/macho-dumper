@@ -7,6 +7,7 @@
 
 #include "utils.h"
 #include <mach-o/loader.h>
+#include "macho.h"
 
 // Code Signature structures
 typedef struct __BlobIndex {

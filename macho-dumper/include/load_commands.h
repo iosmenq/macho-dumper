@@ -7,6 +7,16 @@
 
 #include "utils.h"
 #include <mach-o/loader.h>
+#include <stdint.h>
+
+#ifndef LC_ENTITLEMENTS
+#define LC_ENTITLEMENTS 0x00000005
+#endif
+
+#ifndef VM_PROT_T_DEFINED
+#define VM_PROT_T_DEFINED
+typedef int vm_prot_t;
+#endif
 
 // Load command types
 typedef struct {
@@ -47,6 +57,4 @@ void print_load_commands(const macho_ctx_t* ctx);
 macho_error_t parse_segment_commands(macho_ctx_t* ctx, segment_info_t** segments, uint32_t* nsegments);
 void free_segments(segment_info_t* segments, uint32_t nsegments);
 
-
 #endif // LOAD_COMMANDS_H
-

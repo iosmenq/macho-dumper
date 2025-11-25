@@ -6,6 +6,7 @@
 #define TREE_H
 
 #include "utils.h"
+#include "macho.h"
 
 // Dependency tree node
 typedef struct dylib_node {

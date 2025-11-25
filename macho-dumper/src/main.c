@@ -5,6 +5,7 @@
 #include "../include/macho.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // Print usage information
 void print_usage(const char* program_name) {

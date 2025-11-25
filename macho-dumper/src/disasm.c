@@ -158,7 +158,7 @@ macho_error_t disassemble_macho_arm64(const macho_ctx_t* ctx) {
     }
     
     disasm_ctx_t disasm_ctx;
-    macho_error_t err = init_disassembler(&disasm_ctx, CS_ARCH_ARM64, CS_MODE_ARM);
+    macho_error_t err = init_disassembler(&disasm_ctx, CS_ARCH_ARM, CS_MODE_ARM);
     if (err != SUCCESS) {
         return err;
     }

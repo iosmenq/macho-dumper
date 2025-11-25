@@ -2,11 +2,12 @@
 * entitlements.c
 * Coded by iosmen (c) 2025
 */
-#include "../include/entitlements.h"
+#include "entitlements.h"
+#include "macho.h"
+#include "csblob.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <plist/plist.h>
 
 // Find entitlements in code signature
 macho_error_t find_entitlements_blob(const macho_ctx_t* ctx, uint32_t* offset, uint32_t* size) {

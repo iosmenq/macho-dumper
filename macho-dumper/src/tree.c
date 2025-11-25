@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "macho.h"
 
 // Find dynamic library dependencies
 macho_error_t find_dylib_dependencies(const macho_ctx_t* ctx, char*** dylibs, uint32_t* count) {

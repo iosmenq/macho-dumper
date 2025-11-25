@@ -5,8 +5,17 @@
 #ifndef LOAD_COMMANDS_H
 #define LOAD_COMMANDS_H
 
+#include "macho.h"
 #include "utils.h"
 #include <mach-o/loader.h>
+#include <capstone/capstone.h>
+
+typedef struct {
+    csh handle;
+    uint64_t base_address;
+    uint32_t code_size;
+    uint8_t* code;
+} disasm_ctx_t;
 
 // Load command types
 typedef struct {

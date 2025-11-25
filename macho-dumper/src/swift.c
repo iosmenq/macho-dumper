@@ -2,8 +2,10 @@
 * swift.c
 * Coded by iosmen (c) 2025
 */
-#include "../include/swift.h"
 #include <stdio.h>
+#include "swift.h"
+#include "macho.h"
+#include "load_commands.h"
 #include <string.h>
 #include <stdlib.h>
 

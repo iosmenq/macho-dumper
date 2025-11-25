@@ -5,6 +5,7 @@
 #include "../include/macho.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 // Parse Mach-O or FAT binary
 macho_error_t parse_macho(macho_ctx_t* ctx, const char* filename) {

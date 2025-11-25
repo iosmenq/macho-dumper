@@ -5,13 +5,8 @@
 #ifndef MACHO_H
 #define MACHO_H
 
-#include "utils.h"
-#include "load_commands.h"
-#include "disasm.h"
-#include "csblob.h"
-#include "swift.h"
-#include "entitlements.h"
-#include "tree.h"
+#include <stddef.h>
+#include <stdint.h>
 #include <mach-o/loader.h>
 #include <mach-o/fat.h>
 
@@ -31,6 +26,14 @@ typedef struct {
     struct load_command** load_commands;
 } macho_ctx_t;
 
+#include "utils.h"
+#include "load_commands.h"
+#include "disasm.h"
+#include "csblob.h"
+#include "swift.h"
+#include "entitlements.h"
+#include "tree.h"
+
 // Function prototypes
 macho_error_t parse_macho(macho_ctx_t* ctx, const char* filename);
 void print_header_info(const macho_ctx_t* ctx);
@@ -39,4 +42,3 @@ macho_error_t parse_fat_binary(macho_ctx_t* ctx, const char* filename);
 
 
 #endif // MACHO_H
-
