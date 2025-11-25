@@ -1,6 +1,6 @@
 # Mach-O Dumper Tool
 
-**Installation: sudo apt-get install libcapstone-dev && git clone https://github.com/iosmenq/macho-dumper && cd macho-dumper && make && cp macho-dumper /usr/bin**
+**Installation: sudo apt-get install libcapstone-dev && git clone https://github.com/iosmenq/macho-dumper && ./make && ./run_me_first.sh && ./run_me_2.sh**
 
 **Command Line Options**
 
